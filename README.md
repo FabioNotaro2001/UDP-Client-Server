@@ -1,12 +1,12 @@
 # UDP Client-Server File Transfer
 
-A network programming project developed for a university course that implements a **UDP-based client-server architecture** for reliable file transfer. The system supports listing, uploading, and downloading files between client and server using a custom control-message protocol.
+A network programming project developed for a university course that implements a **UDP-based client-server architecture** for reliable file transfer. The system supports listing, uploading and downloading files between client and server using a custom control-message protocol.
 
 ## Features
 
 - Built on **UDP sockets** (connectionless)
 - Custom message-based communication protocol (HELLO, OK, FAIL, DATA, DONE)
-- Support for file **upload (`put`)**, **download (`get`)**, and **listing (`list`)**
+- Support for file **upload (`put`)**, **download (`get`)** and **listing (`list`)**
 - **Concurrent client support** using threading
 - Graceful **exit** handling per client
 - **File transfer of large files** via chunked messages
@@ -108,5 +108,3 @@ Authors
 License
 
 This project is licensed for educational purposes.
-
-Let me know if you'd like to add badges (e.g., Python version), images (Wireshark screenshots), or Docker support instructions.
